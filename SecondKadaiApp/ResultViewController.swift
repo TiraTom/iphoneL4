@@ -17,7 +17,7 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        button1.setTitle("戻る", for: [])
+        button1.setTitle("戻る", for: UIControl.State.normal)
         
         // 表示名設定処理
         var resultName:String = ""

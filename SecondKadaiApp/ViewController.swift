@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         label1.text = "名前を入力してください"
         nameBox.placeholder = "ここに入力"
-        button1.setTitle("挨拶", for:  [] )
+        button1.setTitle("挨拶", for: UIControl.State.normal)
         button1.sizeToFit()
         
     }
